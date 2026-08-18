@@ -47,6 +47,18 @@ body {
 	object-fit: cover;
 }
 
+#header .carousel-control-prev,
+#header .carousel-control-next {
+	opacity: 0.9;
+}
+#header .carousel-control-prev-icon,
+#header .carousel-control-next-icon {
+	background-color: rgba(0, 0, 0, 0.4);
+	background-origin: content-box;
+	border-radius: 50%;
+	padding: 0.6rem;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -107,7 +119,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
