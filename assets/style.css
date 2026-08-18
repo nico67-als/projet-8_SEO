@@ -51,6 +51,10 @@ body {
 #header .carousel-control-next {
 	opacity: 0.9;
 }
+#header .carousel-control-prev .visually-hidden,
+#header .carousel-control-next .visually-hidden {
+	color: #000;
+}
 #header .carousel-control-prev-icon,
 #header .carousel-control-next-icon {
 	background-color: rgba(0, 0, 0, 0.4);
